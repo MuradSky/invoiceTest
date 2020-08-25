@@ -1,0 +1,52 @@
+.App{
+    position: relative;
+}
+
+.NotFound{
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.NotFound__titile{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 170px;
+    margin: 0 0 25px 0;
+}
+.NotFound__text{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 0 0 10px 0;
+}
+.NotFound .NotFound__link{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    color: #333;
+}
+.NotFound .NotFound__link:hover{
+    color: #888;
+}
+.App__btn{
+    position: absolute;
+    top: 0;
+    right: 1%;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    background: rgb(231, 231, 231);
+    cursor: pointer;
+    padding: 8px;
+    transition:  all .2s linear;
+}
+.App__btn:hover{
+    background: rgb(121, 121, 121);
+    color:#fff;
+}

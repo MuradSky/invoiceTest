@@ -1,0 +1,129 @@
+.Buyers{
+    padding: 20px 0 0 0;
+}
+.Buyers__titile{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color:#333;
+  margin: 0 0 20px 0;
+}
+.faded {
+    -webkit-animation: faded .5s ease-in;
+            animation: faded .5s ease-in; }
+  
+  @-webkit-keyframes faded {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  
+  @keyframes faded {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+.Search{
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+.Search__input{
+  width: 100%;
+  max-width: 250px;
+  padding: 5px 10px;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+.table{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.table__row{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(177, 177, 177);
+    border-top: none;
+}
+.table__row:first-child{
+    border-top: 1px solid rgb(177, 177, 177);
+}
+.table__heading{
+    width: 41.66666%;
+    height: 55px;
+    text-align: left;
+    padding: 5px 0 0 20px;
+}
+.table__heading:not(:last-child),
+.table__cell:not(:last-child){
+    border-right: 1px solid rgb(177, 177, 177);
+}
+.table__cell{
+    width: 41.66666%;
+    height: 30px;
+    text-align: left;
+    padding: 5px 0 0 20px;
+}
+.table__row:nth-child(odd) .table__cell{
+  background:  rgb(238, 238, 238);
+}
+.table__link{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: #333;
+}
+.table__link:hover{
+  text-decoration: underline;
+}
+.Users{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+}
+.User__text{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0 0 15px 0;
+  letter-spacing: 1px;
+}
+.User__text_span{
+  margin: 0 10px 0 0;
+}
+.User__link{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #333;
+  padding: 10px 0 0;
+  margin: 0 30px 0 0;
+}
+.User__link:hover{
+  color: #777;
+}
+@media (max-width: 800px) {
+  .Users{
+    padding: 100px 0 0 100px;
+  }
+}
+@media (max-width: 650px) {
+  .table__heading{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .table__heading{
+    font-size: 10px;
+    padding: 5px;
+    height: 40px;
+  }
+  .table__cell, .table__link{
+    font-size: 12px;
+    padding: 5px;
+  }
+}
