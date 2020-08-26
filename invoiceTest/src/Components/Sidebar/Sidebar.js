@@ -37,9 +37,9 @@ class Sidebar extends Component{
             </button>
             <menu className={this.state.isSideClick ? "Sidebar Sidebar_show": "Sidebar" } >
                 <div className="Sidebar__inner">
-                    <Link to="/" className="Sidebar__user">
+                    <div className="Sidebar__user">
                         <img src={this.state.user? this.state.user.avatar_url : user} alt="user" className="Sidebar__img"/>
-                    </Link>
+                    </div>
                     <p className='Sidebar__name'>{this.state.user? this.state.user.login : ''}</p>
                     <ul className="links">
                         <li className="links__item">
